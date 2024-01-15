@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music PlayList</title>
+    <script src="https://kit.fontawesome.com/eef519840c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="music-playlist">
+
+            <div class="upperdiv">
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+
+            <img src="arrahman.jpg" id="song">
+            <h1>Muqabala Muqabala</h1>
+            <p>A.R.Rahman</p>
+
+            <audio  id="music">
+                <source src="WhatsApp Audio 2024-01-15 at 1.48.18 PM.mpeg" type="audio/mpeg">
+            </audio>
+            <input type="range"  id="range" value="0">
+
+
+            <div class="controls">
+                <div>
+                    <i class="fa-solid fa-backward"></i>
+                </div>
+                <div>
+                    <i class="fa-solid fa-play" id="ctrlIcon"></i>
+                </div>
+                <div>
+                    <i class="fa-solid fa-forward"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+    <script src="index.js"></script>
+
+</body>
+</html>
